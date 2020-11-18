@@ -171,14 +171,15 @@ h1 a {
     position: relative;
 }
 .hero-qc-container img {
-    width: 650px;
+    width: 1061px;
+    height: 961px;
 }
 .hero-qc-container div {
     text-align: right;
     margin-top: 80px;
 }
 .hero-qc-container div h2 {
-    font-size: 85px;
+    font-size: 110px;
     font-family: "helveticabold";
     letter-spacing: -0.05em;
     line-height: 97%;
@@ -546,7 +547,7 @@ h1 a {
     text-decoration: underline;
 }
 .nibo-section-7 p small {
-    font-size: 22px;
+    font-size: 18px;
     font-family: "EB Garamond", serif;
     font-weight: 100;
     opacity: 0.5;
