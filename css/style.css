@@ -120,7 +120,7 @@ h1 a {
 .home-description p {
     width: 440px;
     margin: 80px 0;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .home-description p:last-of-type {
@@ -164,7 +164,7 @@ h1 a {
 }
 
 .works ul li a p {
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 15px;
 }
 
@@ -189,6 +189,10 @@ h1 a {
 .contact ul a {
     color: #ffffff;
     text-decoration: underline;
+}
+
+.contact ul a.no-link {
+    text-decoration: none;
 }
 
 .hero-qc {
@@ -895,6 +899,7 @@ h1 a {
     .hero h2 {
         width: 100%;
         font-size: 52px;
+        margin: 100px auto 40px;
     }
 
     .home-description p,
@@ -902,12 +907,20 @@ h1 a {
         width: 100%;
     }
 
+    .works {
+        padding: 80px 0 240px;
+    }
+
+    .works h6 {
+        margin-bottom: 80px;
+    }
+
     .works ul li a h3 {
         font-size: 56px;
     }
 
     .contact ul {
-        font-size: 24px;
+        font-size: 29px;
     }
 
     .glad-hero {
